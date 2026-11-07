@@ -1,0 +1,25 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local database
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# React / Node
+node_modules/
+dist/
+
+# Build and editor files
+.vscode/
+.DS_Store
